@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a8231912e9.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="CSS/mkstyle.css">
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="Images/mkfavicon.ico">
+        <title>Multikart-Multi-purpose-E-commerce</title>
+</head>
+<body>
+    <!-- This is the welcome tab -->
+    <div class="welcomebar">
+        <div class="welcomebartext">
+            <p>Welcome to Our store Multikart</p>
+            <p><i class="fa fa-phone" aria-hidden="true" style="color: white;"></i>  Call Us: 123 - 456 - 7890</p>
+            <p>Wishlist</p> 
+            <p>My Account</p>
+        </div>
+
+    </div>
+    <!-- end of welcome tab -->
+
+
+    <!-- Start of nav bar -->
+    <header>
+        <div class="navcontainer">
+            <i class="fa fa-bars" aria-hidden="true"></i>  <a href="./index.html"><img src="Images/logo.png" alt="Photo" class="logo"></a> 
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">PAGES</a></li>
+                    <li><a href="#">BLOGS</a></li>
+                    <li>
+                        <div class="settings">
+                            <i class="fa fa-search fonts" aria-hidden="true"></i>
+                            <i class="fa fa-cog fonts" aria-hidden="true"></i>
+                            <a href="index2.html"><i class="fa fa-shopping-cart fonts" aria-hidden="true"></i></i><span class="cart-count">0</span></a></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- end of nav bar -->
+
+
+    <!-- Start of slider 1 -->
+    <swiper-container class="mySwiper" navigation="true">
+        <swiper-slide class="slide1">
+            <div class="slide1text">
+                <p class="slide1text1">Welcome to Fashion</p>
+                <h1 class="slide1text2">Men Fashion</h1>
+                <div class="shopnow">
+                    <p class="shopnowtext">Shop Now</p>
+                </div>
+            </div>
+        </swiper-slide>
+
+
+        <swiper-slide class="slide2">
+            <swiper-slide class="slide1">
+                <div class="slide1text">
+                    <p class="slide1text1">Welcome to Fashion</p>
+                    <h1 class="slide1text2">Women Fashion</h1>
+                    <div class="shopnow">
+                        <p class="shopnowtext">Shop Now</p>
+                    </div>
+                </div>
+        </swiper-slide>
+    </swiper-container>
+    <!-- End of slider 1 -->
+
+    <!-- Dicount Section -->
+
+
+
+    <div class="discount">
+        <div class="discountimg1">
+            <img src="Images/Men.jpg" alt="Photo">
+            <div class="dicounttext1">
+                <p>10% OFF</p>
+                <h2>MEN</h2>
+            </div>
+        </div>
+        <div class="discountimg2">
+            <img src="Images/Women.jpg" alt="Photo">
+            <div class="dicounttext2">
+                <p>10% OFF</p>
+                <h2>WOMEN</h2>
+            </div>
+        </div>
+    </div>
+                
+    <!-- End of discount section -->
+                
+                
+    <!-- Special Offer -->
+                
+    <div class="topics">
+        <p class="redtopic">Special Offer</p>
+        <h2 class="blacktopic">TOP COLLECTION</h2>
+        <div class="redhr"></div>
+    </div>
+    <div class="description">
+        <p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p class="p2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+    </div>
+                        
+                        
+    <!-- Top Collection Collage -->
+    <div class="products-container">
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/long yellow dress.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/long white dress.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart('Long Yellow Dress')"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Trim Dress</div>
+                <div class="price">
+                    <span class="current-price">$87.00</span>
+                    <span class="original-price">$145.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/belted dress 1.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/belted dress 2.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Belted Dress</div>
+                <div class="price">
+                    <span class="current-price">$111.00</span>
+                    <span class="original-price">$185.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/fitted dress 2.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/fitted dress1.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Fitted Dress</div>
+                <div class="price">
+                    <span class="current-price">$104.4</span>
+                    <span class="original-price">$174.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Top Collection Collage -->
+    <!-- End of Special offer section -->
+
+
+
+
+
+    <!-- Fashion Trends -->
+    <div class="fashiontrends">
+        <div class="fttextcontainer">
+            <h1 class="fttext1">2023</h1>
+            <h2 class="fttext2">Fashion Trends</h2>
+            <p class="fttext3">Special offer</p>
+        </div>
+    </div>
+    <!-- End of Fashion trends  -->
+
+
+    <!-- Start of Products-->
+
+    <div class="topics">
+        <p class="redtopic">Exclusive Products</p>
+        <h2 class="blacktopic">SPECIAL PRODUCTS</h2>
+        <div class="redhr"></div>
+    </div>
+
+
+
+    <div class="titles">
+        <div class="title active" onclick="showCategory('new-arrival')">New Arrival</div>
+        <div class="title" onclick="showCategory('special')">Special</div>
+        <div class="title" onclick="showCategory('featured')">Featured</div>
+    </div>
+    <div class="products-container cont" id="new-arrival">
+        <!-- New Arrival products -->
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/long yellow dress.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/long white dress.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Trim Dress</div>
+                <div class="price">
+                    <span class="current-price">$87.00</span>
+                    <span class="original-price">$145.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0, this)"></div>
+                    <div class="circle" onclick="showPhoto(1, this)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/belted dress 1.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/belted dress 2.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Belted Dress</div>
+                <div class="price">
+                    <span class="current-price">$111.00</span>
+                    <span class="original-price">$185.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/fitted dress 2.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/fitted dress1.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Fitted Dress</div>
+                <div class="price">
+                    <span class="current-price">$104.4</span>
+                    <span class="original-price">$174.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/belted dress 1.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/belted dress 2.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Belted Dress</div>
+                <div class="price">
+                    <span class="current-price">$111.00</span>
+                    <span class="original-price">$185.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/belted dress 1.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/belted dress 2.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Belted Dress</div>
+                <div class="price">
+                    <span class="current-price">$111.00</span>
+                    <span class="original-price">$185.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/fitted dress 2.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/fitted dress1.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Fitted Dress</div>
+                <div class="price">
+                    <span class="current-price">$104.4</span>
+                    <span class="original-price">$174.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/belted dress 1.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/belted dress 2.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Belted Dress</div>
+                <div class="price">
+                    <span class="current-price">$111.00</span>
+                    <span class="original-price">$185.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/fitted dress 2.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/fitted dress1.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Fitted Dress</div>
+                <div class="price">
+                    <span class="current-price">$104.4</span>
+                    <span class="original-price">$174.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- New Arrival products end here -->
+
+
+
+    <!-- Special products-->
+    <div class="products-container cont" id="special" style="display: none;">
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/Black fit.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/Jean shirt.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Jean Dresses</div>
+                <div class="price">
+                    <span class="current-price">$161.00</span>
+                    <span class="original-price">$175.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/Beige fit.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/White pants.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Office Clothes</div>
+                <div class="price">
+                    <span class="current-price">$124.4</span>
+                    <span class="original-price">$194.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/Blue pants.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/Black pants.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Pants For All</div>
+                <div class="price">
+                    <span class="current-price">$154.4</span>
+                    <span class="original-price">$204.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>    
+
+        
+    </div>
+    <!-- Special products end-->
+
+
+    <!-- Featured products -->
+
+    <div class="products-container cont" id="featured" style="display: none;">
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/Track suit.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/Black overcoat.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Dress in style</div>
+                <div class="price">
+                    <span class="current-price">$174.4</span>
+                    <span class="original-price">$274.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/fitted dress 2.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/fitted dress1.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Fitted Dress</div>
+                <div class="price">
+                    <span class="current-price">$104.4</span>
+                    <span class="original-price">$174.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="image-wrapper">
+            <div class="image-container">
+                <img src="./Images/fitted dress 2.jpg" alt="Placeholder Image" class="main-image">
+                <img src="/Images/fitted dress1.jpg" alt="Hover Image" class="new-image">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <button onclick="addToCart()"><i class="fa fa-shopping-cart"></i></button>
+                        <button onclick="likePhoto()"><i class="fa fa-heart"></i></button>
+                        <button onclick="search()"><i class="fa fa-search"></i></button>
+                        <button onclick="reload()"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-text-container">
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="product-name">Fitted Dress</div>
+                <div class="price">
+                    <span class="current-price">$104.4</span>
+                    <span class="original-price">$174.00</span>
+                </div>
+                <div class="photo-switch">
+                    <div class="circle" onclick="showPhoto(0)"></div>
+                    <div class="circle" onclick="showPhoto(1)"></div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- Featured products end -->
+
+    <!-- End of Products-->
+
+    <!-- Description  -->
+    
+    <div class="blackhr"></div>
+    <div class="shippingholder">
+        <div class="shippingdescription">
+            <div class="freeshipping">
+                <div class="faheader">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
+                    <h2 class="headertext1">Free Shipping</h2>
+                </div>
+                <p class="headertext2">Free Shipping World Wide</p>
+            </div>
+        </div>
+        <div class="horizontalhr"></div>
+
+        <div class="shippingholder">
+            <div class="servicedecription">
+                <div class="faheader">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <h2 class="headertext3">24 X 7 SERVICE</h2>
+                </div>
+                <p class="headertext4">Online Service For 24 X 7</p>
+            </div>
+        </div>
+        <div class="horizontalhr"></div>
+
+        <div class="shippingholder">
+            <div class="servicedecription">
+                <div class="faheader">
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                    <h2 class="headertext3">FESTIVAL OFFER</h2>
+                </div>
+                <p class="headertext4">New Online Special Festival Offer</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="blackhr"></div>
+
+    <!-- Description End-->
+
+    <!-- Our Collection   -->
+
+    <div class="topics">
+        <p class="redtopic">Our Collection</p>
+        <h2 class="blacktopic">SPECIAL PRODUCTS</h2>
+        <div class="redhr"></div>
+    </div>
+
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none;">
+        <defs>
+            <filter id="displacementFilter">
+                <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" result="turbulence"/>
+                <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="20" />
+            </filter>
+        </defs>
+    </svg>
+    <div class="collection-section">
+        <div class="collection-wrapper">
+            <div class="collection-container">
+                <img src="./Images/collection1.jpg" alt="Image 1" class="main-collection">
+                <div class="red-film"></div>
+            </div>
+            <div class="topics2">
+                <p class="redtopic2">25 December 2019</p>
+                <h2 class="blacktopic2">Photo Shoot SuperStar</h2>
+                <div class="redhr2"></div>
+            </div>
+            <div class="description">
+                <p class="p1">by: Adi Jude</p>
+            </div>
+        </div>
+        <div class="collection-wrapper">
+            <div class="collection-container">
+                <img src="./Images/collection2.jpg" alt="Image 2" class="main-collection">
+                <div class="red-film"></div>
+            </div>
+            <div class="topics2">
+                <p class="redtopic2">29 January 2020</p>
+                <h2 class="blacktopic2">Mrs. Johannesburg</h2>
+                <div class="redhr2"></div>
+            </div>
+            <div class="description">
+                <p class="p1">by: Adi Jude</p>
+            </div>
+        </div>
+        <div class="collection-wrapper">
+            <div class="collection-container">
+                <img src="./Images/collection3.jpg" alt="Image 3" class="main-collection">
+                <div class="red-film"></div>
+            </div>
+            <div class="topics2">
+                <p class="redtopic2">14 June 2024</p>
+                <h2 class="blacktopic2">Project Due</h2>
+                <div class="redhr2"></div>
+            </div>
+            <div class="description">
+                <p class="p1">by: Adi Jude</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- our collection end  -->
+
+    <!-- Instagram  -->
+
+    <div class="insta"><b>#INSTAGRAM</b></div>
+
+
+
+    <div class="instagram-section">
+        <div class="instagram-wrapper">
+            <div class="instagram-container">
+                <img src="./Images/instagram1.jpg" alt="Image 1" class="main-instagram">
+                <div class="instagram-overlay">
+                    <div class="instagram-logo">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="instagram-wrapper">
+            <div class="instagram-container">
+                <img src="./Images/instagram2.jpg" alt="Image 2" class="main-instagram">
+                <div class="instagram-overlay">
+                    <div class="instagram-logo">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="instagram-wrapper">
+            <div class="instagram-container">
+                <img src="./Images/instagram3.jpg" alt="Image 3" class="main-instagram">
+                <div class="instagram-overlay">
+                    <div class="instagram-logo">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="instagram-wrapper">
+            <div class="instagram-container">
+                <img src="./Images/instagram4.jpg" alt="Image 4" class="main-instagram">
+                <div class="instagram-overlay">
+                    <div class="instagram-logo">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="instagram-wrapper">
+            <div class="instagram-container">
+                <img src="./Images/instagram5.jpg" alt="Image 5" class="main-instagram">
+                <div class="instagram-overlay">
+                    <div class="instagram-logo">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="instagram-wrapper">
+            <div class="instagram-container">
+                <img src="./Images/instagram6.jpg" alt="Image 6" class="main-instagram">
+                <div class="instagram-overlay">
+                    <div class="instagram-logo">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instagram end  -->
+
+
+    <!-- Logos Opacity -->
+    <div class="logos-section">
+        <div class="logos-wrapper">
+            <div class="logos-container">
+                <img src="./Images/platinum.png" alt="Image 1" class="logos-image">
+            </div>
+        </div>
+        <div class="logos-wrapper">
+            <div class="logos-container">
+                <img src="./Images/premium.png" alt="Image 1" class="logos-image">
+            </div>
+        </div>
+        <div class="logos-wrapper">
+            <div class="logos-container">
+                <img src="./Images/emerald.png" alt="Image 1" class="logos-image">
+            </div>
+        </div>
+        <div class="logos-wrapper">
+            <div class="logos-container">
+                <img src="./Images/elegant.png" alt="Image 1" class="logos-image">
+            </div>
+        </div>
+        <div class="logos-wrapper">
+            <div class="logos-container">
+                <img src="./Images/elegant fancy.png" alt="Image 1" class="logos-image">
+            </div>
+        </div>
+    </div>
+    <!-- Logos Opacity End  -->
+
+
+
+
+    <!-- Start of footer  -->
+    <footer>
+        <div class="know-container">
+            <div class="know-wrapper">
+                <h2>Know It All First</h2>
+                <p>Never Miss Anything From Multikart By Signing Up To Our Newsletter.</p>
+            </div>
+            <div class="horizontalhr2"></div>
+            <div class="form">
+                <form action="index.html" method="get">
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+        <div class="blackhr"></div>
+        <div class="footer-inner">
+            <div class="footer-section">
+                <a href="./index.html"><img src="Images/logo.png" alt="Photo" class="logo2"></a>
+                <div class="footer-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h2>My Account</h2>
+                <ul class="footer-links">
+                    <li><a href="#">Womens</a></li>
+                    <li><a href="#">Clothing</a></li>
+                    <li><a href="#">Assecories</a></li>
+                    <li><a href="#">Featured</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Why we Choose</h2>
+                <ul class="footer-links">
+                    <li><a href="#">Shipping&Return</a></li>
+                    <li><a href="#">Secure Shopping</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Affiliates</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Store Information</h2>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>    Multikart Demo Store, Demo Store India 345-659</a></li>
+                    <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>    Call Us: 123-456-7898</a></li>
+                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>    Email Us: Support@Fiot.Com</a></li>
+                    <li><a href="#"><i class="fa fa-fax" aria-hidden="true"></i>    Fax: 123456</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="final">
+        <div class="powered"><i class="fa fa-copyright" aria-hidden="true"></i>2023-24 themeforest powered by pixelstrap</div>
+        <div class="payout">
+            <img src="./Images/paypal.png" alt="Paypal">
+            <img src="/Images/american-express.png" alt="American Express">
+            <img src="/Images/mastercard.png" alt="Master Card">
+            <img src="/Images/visa.png" alt="Visa">
+        </div>
+    </div>
+    <!-- End of Footer  -->
+
+    <script src="./mkjava.js"></script>
+</body>
+</html>
